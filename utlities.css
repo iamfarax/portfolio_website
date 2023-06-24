@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:ital,wght@1,100&family=Work+Sans:wght@100&display=swap');
+
+.j-font {
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.l-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-align {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.icon-size {
+    font-size: 30px;
+    color: gray;
+}
+
+
+.burger {
+    position: absolute;
+    top: 3%;
+    right: 4%;
+    cursor: pointer;
+    display: none;
+}
+
+
+.line {
+    background-color: white;
+    height: 5px;
+    width: 32px;
+    margin: 5px 12px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:750px) {
+    .side-nav {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main-container {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .section-2 {
+        width: auto;
+        margin: 15px 0px;
+    }
+
+    .section-3 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .card-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-item {
+        margin: 15px 0px;
+    }
+
+    .skill-form {
+        width: auto;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .w-nav-resp {
+        width: 60%;
+    }
+
+    .v-class-resp {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo img {
+        width: 80%;
+        height: 50%;
+    }
+}

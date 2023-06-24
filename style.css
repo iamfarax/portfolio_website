@@ -1,0 +1,261 @@
+.side-nav {
+    width: 25%;
+    background-color: #222;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+    margin: 1rem 3rem;
+
+
+}
+
+.logo img {
+    width: 100%;
+    height: 20%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.name-heading {
+    text-align: center;
+    font-style: italic;
+}
+
+.nav-list {
+    /* background-color: green; */
+    /* background-color: green; */
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+.nav-list li {
+    margin: 8px 0px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: gray;
+    border-bottom: 2px solid red;
+}
+
+.drop-icons {
+    /* background-color: orange;
+    color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.drop-icons i {
+    margin-right: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.drop-icons i:hover {
+    color: gray;
+}
+
+.main-container {
+    margin-left: 25%;
+}
+
+.section-1 {
+    height: 80vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) url(bgimg.jpeg);
+    background-blend-mode: soft-light;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-heading-1 {
+    font-size: 25px;
+    color: rgb(186, 180, 180);
+}
+
+.intro-name {
+    font-size: 6rem;
+    border-bottom: 2px solid red;
+    color: whitesmoke;
+    animation: slider 10s;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.intro-heading-2 {
+    font-size: 25px;
+    color: rgba(186, 180, 180);
+    margin-top: 5px;
+}
+
+.hire-button {
+    /* background-color: rgb(46, 141, 141); */
+    background: none;
+    /* color: white; */
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    justify-items: center;
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+
+.hire-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.hire-button:hover {
+    background-color: gray;
+    color: #222;
+}
+
+.section-2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 70%;
+    margin: 2rem 8rem;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+
+.sec-2-heading {
+    font-size-adjust: initial;
+    margin: 5px 5px;
+    font-style: oblique;
+
+}
+
+.para-heading {
+    font-size: 25px;
+    margin: 8px 1rem;
+}
+
+.para-heading span {
+    font-size: 15px;
+    font-style: italic;
+    margin: 2px 18px;
+
+}
+
+.main-para {
+    margin: 15px 5rem;
+}
+
+.section-3 {
+    /* border: 1px solid black; */
+    /* border-radius: 8px; */
+    margin: 2rem 5rem;
+}
+
+.sec-3-heading {
+    margin: 5px 8px;
+    font-weight: bold;
+}
+
+.card-item {
+    /* background-color: red; */
+    /* color: white; */
+    margin: 0 10px;
+    padding: 25px 5px;
+    border: 1px solid #222;
+    border-radius: 8px;
+
+}
+
+.card-section {
+    display: flex;
+    margin: 2rem 15px;
+}
+
+.card-heading {
+    margin: 8px 15px;
+}
+
+.card-para {
+    margin: 5px 15px;
+}
+
+.skills-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-4-heading {
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bolder;
+}
+
+.skill-form {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.skills-range {
+    width: 60%;
+    height: 8px;
+    outline: none;
+    border: none;
+    background-color: #222;
+    border-radius: 25px;
+    margin: 0 12px;
+}
+
+.skill-form label {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #222;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    margin-top: 5rem;
+}
